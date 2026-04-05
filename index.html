@@ -44,33 +44,56 @@
         <section id="gallery">
             <h2>A Gallery of Field & Feast</h2>
             <p>Experience the elegance and artistry behind Field & Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.</p>
-            <div>
-                (tomatoes image)
-                Heirloom tomatoes at peak ripeness.
-
-                (olive-oil image)
-                Drizzling golden olive oil over fresh harvest.
-
-                (table-setting image)
-                Elegant tablescape under the evening sky.
-
-                (chef-plating image)
-                Artful plating with seasonal ingredients.
-
-                (basket image)
-                Our monthly basket, curated with care.
+            <div id="g-images">
+                <figure>
+                    <img srcset="images/tomatoes-200w.jpg 200w, images/tomatoes-300w.jpg 300w, images/tomatoes-600w.jpg 600w"
+                        sizes="(min-width: 600px) 200w, (min-width: 900px) 300w, (min-width: 1200px) 600w"
+                        src="images/tomatoes-200w.jpg"
+                        alt="ripe heirloom tomatoes">
+                    <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
+                </figure>
+                <figure>
+                    <img srcset="images/olive-oil-200w.jpg 200w, images/olive-oil-300w.jpg 300w, images/olive-oil-600w.jpg 600w"
+                        sizes="(min-width: 600px) 200w, (min-width: 900px) 300w, (min-width: 1200px) 600w"
+                        src="images/olive-oil-200w.jpg"
+                        alt="olive oil drizzled over stuffed olives">
+                    <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
+                </figure>
+                <figure>
+                    <img srcset="images/table-setting-200w.jpg 200w, images/table-setting-300w.jpg 300w, images/table-setting-600w.jpg 600w"
+                        sizes="(min-width: 600px) 200w, (min-width: 900px) 300w, (min-width: 1200px) 600w"
+                        src="images/table-setting-200w.jpg"
+                        alt="table set with candles">
+                    <figcaption>Elegant tablescape under the evening sky.</figcaption>
+                </figure>
+                <figure>
+                    <img srcset="images/chef-plating-200w.jpg 200w, images/chef-plating-300w.jpg 300w, images/chef-plating-600w.jpg 600w"
+                        sizes="(min-width: 600px) 200w, (min-width: 900px) 300w, (min-width: 1200px) 600w"
+                        src="images/chef-plating-200w.jpg"
+                        alt="chef plating ingredients">
+                    <figcaption>Artful plating with seasonal ingredients.</figcaption>
+                </figure>
+                <figure>
+                    <img srcset="images/basket-200w.jpg 200w, images/basket-300w.jpg 300w, images/basket-600w.jpg 600w"
+                        sizes="(min-width: 600px) 200w, (min-width: 900px) 300w, (min-width: 1200px) 600w"
+                        src="images/basket-200w.jpg"
+                        alt="baskets of farm fresh produce">
+                    <figcaption>Our monthly basket, curated with care.</figcaption>
+                </figure>
             </div>
         </section>
 
         <a href="#">View Our Full Gallery</a>
 
         <footer>
-            123 Estate Lane, Wine Country, CA
-            (555) 123-4567
-            hello@fieldandfeast.com
+            <address>
+                123 Estate Lane, Wine Country, CA<br>
+                <a href="tel:+15551234567">(555) 123-4567</a><br>
+                <a href="mailto:hello@fieldandfeast.com">hello@fieldandfeast.com</a>
+            </address>
 
-            Instagram 
-            Facebook
+            <a href="https://www.instagram.com/">Instagram</a> 
+            <a href="https://www.facebook.com">Facebook</a>
         </footer>
     </body>
 </html>
