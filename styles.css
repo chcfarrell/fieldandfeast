@@ -70,6 +70,7 @@ body{
 }
 /*HEADER STYLES*/
 header{
+    text-align: center;
     background-color: var(--midnight-blue);
     color: var(--soft-white);
 }
@@ -77,13 +78,15 @@ header nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: var(--gold)
+    background-color: var(--gold);
+    display: flex;
 }
 header nav a{
     display: block;
     color: var(--midnight-blue);
     text-align: center;
     text-decoration: none;
+    padding: 14px 20px;
 }
 
 /* MEDIA QUERY (medium) */
