@@ -55,38 +55,65 @@ table {
 
 /* ROOT VARIABLES */
 :root{
-    midnight-blue: #1F2A44;
-    olive-green: #76885B;
-    champagne-gold: #E5C185;
-    linen: #F8F4EC;
-    dark-charcoal: #2B2B2B;
-    soft-white: #FAF9F6;
-    font-family:"Playfair Display", serif;
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+    --font-family:"Playfair Display", serif;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
 body{
     background-color: var(--soft-white);
+    font-family: var(--font-family);
 }
+h1{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+
 /*HEADER STYLES*/
 header{
     text-align: center;
     background-color: var(--midnight-blue);
     color: var(--soft-white);
 }
+#logo{
+    max-width: 30%;
+    height: auto;
+}
 header nav{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: var(--gold);
+    margin: 10px 0;
+    background-color: var(--champagne-gold);
     display: flex;
+    align-content: center;
 }
 header nav a{
-    display: block;
+    display: flex;
+    justify-content: center;
     color: var(--midnight-blue);
-    text-align: center;
     text-decoration: none;
+    font-weight: bold;
     padding: 14px 20px;
+}
+
+/*BODY STYLES*/
+h2{
+    font-size: 24px;
+}
+#welcome{
+    display: flex;
+    align-content: center;
 }
 
 /* MEDIA QUERY (medium) */
