@@ -67,7 +67,7 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 body{
     color: var(--dark-charcoal);
-    background-color: var(--soft-white);
+    background-color: var(--linen);
     font-family: var(--font-family);
     line-height: 1.5rem;
 }
@@ -141,7 +141,7 @@ h2{
     flex-direction: column;
 }
 .green-sec{
-    color: var(--linen);
+    color: var(--soft-white);
     background-color: var(--olive-green);
     padding: 20px;
     border: 10px solid var(--linen);
@@ -178,7 +178,7 @@ figcaption{
 #gallery a{
     display: block;
     background-color: var(--olive-green);
-    color: var(--linen);
+    color: var(--soft-white);
     text-align: center;
     padding: 10px;
     margin: 0 18px;
@@ -187,6 +187,26 @@ figcaption{
     border-radius: 8px;
 }
 
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
+footer address{
+    margin: 44px 0;
+}
+#tel{
+    text-decoration: none;
+    color: var(--soft-white);
+}
+#email, #insta, #face{
+    text-decoration: none;
+    color: var(--champagne-gold);
+}
+#insta, #face{
+    font-weight: bold;
+}
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
