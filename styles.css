@@ -114,7 +114,7 @@ header nav a{
     padding: 14px 20px;
 }
 
-/*BODY STYLES*/
+/*MAIN STYLES*/
 h2{
     font-size: 24px;
     margin: 10px 0;
@@ -207,8 +207,29 @@ footer address{
 #insta, #face{
     font-weight: bold;
 }
+
 /* MEDIA QUERY (medium) */
+@media (min-width: 600px){
+    #offerings-sections{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #gallery{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-bottom: 2px solid var(--champagne-gold);
+        padding: 12px;
+    }
+}
 
 /* MEDIA QUERY (large) */
+@media (min-width: 900px){
+
+}
 
 /* MEDIA QUERY (xl) */
+@media (min-width: 1200px){
+
+}
