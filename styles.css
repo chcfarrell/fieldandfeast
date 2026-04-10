@@ -117,21 +117,19 @@ header nav a{
 /*BODY STYLES*/
 h2{
     font-size: 24px;
+    margin: 10px 0;
 }
 #welcome{
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 10px;
+    padding: 12px;
     border-bottom: 2px solid var(--champagne-gold);
-}
-#welcome h2{
-    margin: 10px 0;
 }
 
 #offerings{
     border-bottom: 2px solid var(--champagne-gold);
-    padding: 1px;
+    padding: 12px;
 }
 #offerings h3{
     font-size: 22px;
@@ -152,6 +150,41 @@ h2{
 .green-sec ul{
     list-style-type: disc;
     list-style-position: inside;
+}
+
+#gallery{
+    border-bottom: 2px solid var(--champagne-gold);
+    padding: 12px;
+}
+figure{
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    border-radius: 12px; 
+}
+figure img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+figcaption{
+    padding: 14px 0;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+#gallery a{
+    display: block;
+    background-color: var(--olive-green);
+    color: var(--linen);
+    text-align: center;
+    padding: 10px;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
 }
 
 /* MEDIA QUERY (medium) */
